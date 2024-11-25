@@ -14,6 +14,9 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  width: 50%;
+  margin: auto;
 }
 
 .title {
@@ -22,4 +25,23 @@ body {
   background-color: var(--mikado-yellow-50);
   padding: 1.5rem 2rem;
   border-radius: 0 0 1rem 1rem;
+}
+
+form {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+fieldset {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+label {
+    padding: 1rem;
+    font-weight: bold;
+    color: var(--yale-blue);
 }
