@@ -1,25 +1,4 @@
 [
-<<<<<<< HEAD
-=======
-    {
-      "Aliment": "Abondance",
-      "Protéines": 26.6,
-      "Glucides": 0.0,
-      "Lipides": 31.6,
-      "Fibres": 0.0,
-      "Alcool": 0.0,
-      "Kcal": 390.8
-    },
-    {
-      "Aliment": "Abricot au sirop léger, appertisé, égoutté",
-      "Protéines": 0.9,
-      "Glucides": 13.7,
-      "Lipides": 0.5,
-      "Fibres": 1.4,
-      "Alcool": 0.0,
-      "Kcal": 65.9
-    },
->>>>>>> a8caf6c (feat/ajout_formulaire_selection - fix after merge)
   {
     "Aliment": "Abondance",
     "Protéines": 26.6,
