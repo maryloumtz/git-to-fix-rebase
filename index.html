@@ -7,20 +7,47 @@
   </head>
   <body>
     <h1 class="title">Calculateur de macro pour les costauds !</h1>
-    <table id="food-log-table">
-      <thead>
-        <tr>
-          <td>Date</td>
-          <td>Aliment</td>
-          <td>Quantité</td>
-          <td>Protéines</td>
-          <td>Glucides</td>
-          <td>Lipides</td>
-          <td>Alcool</td>
-          <td>Energie</td>
-        </tr>
-      </thead>
-      <tbody></tbody>
-    </table>
+    <form id="food-form">
+      <fieldset>
+        <label for="food-input">Aliment</label>
+        <input list="food-list" id="food-input" name="food-input" />
+
+        <datalist id="food-list"> </datalist>
+
+        <label for="food-quantity">Quantité (grammes)</label>
+        <input type="number" id="food-quantity" min="1" />
+      </fieldset>
+
+      <button type="submit">Ajouter un ingrédient</button>
+    </form>
+
+    <h2>Totaux</h2>
+    <section class="totals">
+      <div class="total">
+        <h3>Calories</h3>
+        <span id="kcal"></span>
+      </div>
+      <div class="total">
+        <h3>Protéines</h3>
+        <span id="proteins"></span>
+      </div>
+      <div class="total">
+        <h3>Lipides</h3>
+        <span id="fat"></span>
+      </div>
+      <div class="total">
+        <h3>Glucides</h3>
+        <span id="carbs"></span>
+      </div>
+      <div class="total">
+        <h3>Fibres</h3>
+        <span id="fibers"></span>
+      </div>
+      <div class="total">
+        <h3>Alcool</h3>
+        <span id="alcohol"></span>
+      </div>
+    </section>
+    <script src="script.js"></script>
   </body>
 </html>
